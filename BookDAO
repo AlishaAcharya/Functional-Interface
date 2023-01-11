@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookDAO {
+
+	public List<Book> getBooks() {
+		List<Book> books = new ArrayList<>();
+		books.add(new Book(135, "Core Java", 450));
+		books.add(new Book(467, "Hibernate", 230));
+		books.add(new Book(657, "Spring", 920));
+		books.add(new Book(849, "WebService", 1050));
+		return books;
+	}
+}
